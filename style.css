@@ -25,9 +25,13 @@ html{
     margin: auto;
     margin-top: -400px;
     margin-right: -48px;
-    background: #F7F6F5;
+    
+    
 }
-
+.col{
+    display: grid;
+        grid-template-columns: 4fr;
+}
 .act--img{
     position: absolute;
     width: 910px;
@@ -51,7 +55,6 @@ html{
 }
 
 .previousPage{
-    position: absolute;
     width: 348px;
     height: 61px;
     left: 995px;
@@ -86,7 +89,6 @@ html{
 }
 
 .headerAbout{
-    position: absolute;
     width: 342px;
     height: 45px;
     left: 969px;
@@ -109,7 +111,7 @@ html{
 }
 
 .sub-headerAbout{
-    position: absolute;
+    
     width: 373px;
     height: 23px;
     left: 969px;
@@ -138,7 +140,7 @@ html{
 }
 
 .description{
-    position: absolute;
+    
     width: 410px;
     height: 108px;
     left: 969px;
@@ -160,7 +162,7 @@ html{
 
 
 .pic{
-    position: absolute;
+  
     width: 51.94px;
     height: 51.94px;
     margin-top: 4px;
@@ -168,7 +170,7 @@ html{
 
 
 .pic h4{
-    position: absolute;
+    
     width: 110px;
     height: 19px;
     left: 60px;
@@ -208,11 +210,21 @@ html{
 }
 
 .addToCart{
-    position: absolute;
+   
     width: 396px;
     height: 47px;
     left: 969px;
     top: 638px;
 }
 
-
+.container-features{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.row{
+    display: flex;
+}
+.col{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
